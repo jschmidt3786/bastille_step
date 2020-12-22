@@ -20,7 +20,7 @@
 ####################################################################################
 
 # pulls in bash, among other things
-INCLUDE jschmidt3786/bastille-base
+INCLUDE jschmidt3786/bastille_base
 
 # Install needed packages
 PKG step-certificates step-cli pwgen jq
@@ -29,9 +29,10 @@ PKG step-certificates step-cli pwgen jq
 SYSRC step_ca_enable=YES
 SYSRC sshd_enable=YES
 
-OVERLAY root
+#OVERLAY
 
-CMD /root/bootstrap.sh
+#CMD /root/bootstrap.sh
+#CMD
 
 # Start the service immediately
 #SERVICE openvpn_zenith start
