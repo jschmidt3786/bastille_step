@@ -1,7 +1,7 @@
 # Bastille Jail Template for smallstep CA
 # version 0.2.0  2021-1-20
 
-INCLUDE jschmidt3786/bastille_base
+#INCLUDE jschmidt3786/bastille_base
 
 # Install needed packages
 PKG step-certificates step-cli pwgen jq
